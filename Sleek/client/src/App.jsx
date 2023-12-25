@@ -8,6 +8,7 @@ import { Home } from "./components/Home";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 import {AddProduct} from "./components/AddProduct" 
+import {Dashboard} from "./components/Dashboard"
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -17,13 +18,14 @@ function App() {
     <BrowserRouter>
     <div className="flex flex-col">
     <Navbar/>
-        <div className="container bg-wh2 min-h-screen w-full">
+        <div className="container bg-wh2 min-h-screen w-full flex justify-center items-center" >
       <Routes>
 
        <Route index element={<Home />} />
        <Route path="/login" element={<Login />} />
        <Route path="/signup" element={<Signup />} />
        <Route path="/addproduct" element={<AddProduct />} />
+       <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
         </div>
       <Footer/>
