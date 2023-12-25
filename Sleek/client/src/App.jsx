@@ -18,10 +18,10 @@ function App() {
     <BrowserRouter>
     <div className="flex flex-col">
     <Navbar/>
-        <div className="container bg-wh2 min-h-screen w-full flex justify-center items-center" >
+        <div className="container bg-wh2 min-h-screen min-w-screen flex justify-center items-center" >
       <Routes>
 
-       <Route index element={<Home />} />
+       <Route path="/home" index element={<Home />} />
        <Route path="/login" element={<Login />} />
        <Route path="/signup" element={<Signup />} />
        <Route path="/addproduct" element={<AddProduct />} />

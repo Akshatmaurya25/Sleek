@@ -47,6 +47,9 @@ background: linear-gradient(90deg, rgba(250,0,255,1) 0%, rgba(0,163,255,1) 50%, 
 .hoverline:hover::after{
     transform: scaleX(1);
 }
+.nav{
+    z-index: 10;
+}
 
 .vl{
     height:100%;

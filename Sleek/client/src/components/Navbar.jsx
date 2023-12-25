@@ -16,7 +16,7 @@ export const Navbar = () => {
 
   
   return (
-    <div className={navOpen ? `w-full h-fit bg-wh1  min-w-screen flex px-4 nav justify-between items-center sticky top-0 overflow-hidden` :` bg-wh1 w-full min-w-screen flex px-4 nav justify-between items-center sticky top-0 overflow-hidden`}>
+    <div className={navOpen ? `w-full max-w-screen h-fit bg-wh1  min-w-screen flex px-4 nav justify-between items-center sticky top-0 overflow-hidden` :` bg-wh1 max-w-screen w-full min-w-screen flex px-4 nav justify-between items-center sticky top-0 overflow-hidden`}>
 
       <div className='logo-container w-full flex items-center justify-between flex-1'>
         <h2 className='lobster gdc1 text-[40px] cursor-pointer'>Sleek</h2>
