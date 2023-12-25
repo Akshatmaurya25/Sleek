@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.gd1{
+    background: rgb(250,0,255);
+background: linear-gradient(90deg, rgba(250,0,255,1) 0%, rgba(0,163,255,1) 50%, rgba(143,0,255,1) 100%);
+}
+.gdc1{
+   
+    background: -webkit-linear-gradient(180deg,#FA00FF, #00A3FF,#8F00FF);
+   
+    -webkit-background-clip: text;
+  color: transparent;}
+
+.lobster{
+    font-family: 'Lobster', sans-serif;
+}
+.nav{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.hoverline{
+    width: max-content;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.hoverline:hover{
+    background: -webkit-linear-gradient(180deg,#FA00FF, #00A3FF,#8F00FF);
+    /* Clip the background to the text */
+    /* Set the text color as transparent */
+    -webkit-background-clip: text;
+  color: transparent;
+}
+.hoverline::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    background: rgb(250,0,255);
+    background: linear-gradient(90deg, rgba(250,0,255,1) 0%, rgba(0,163,255,1) 50%, rgba(143,0,255,1) 100%);
+    transition: 0.3s ;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+.hoverline:hover::after{
+    transform: scaleX(1);
+}
+
+.vl{
+    height: 150px;
+    background-color: #c77fff;
+    width: 2px;
+    border-radius: 50%;
+    margin: 2rem;
+}
