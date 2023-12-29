@@ -6,6 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 
+
 export const Footer = () => {
   return (
     <div className="bg-gray-800 text-wh1 min-w-screen">
@@ -21,30 +22,30 @@ export const Footer = () => {
         <div className="flex-1">
           <h2 className="my-3 font-bold">User</h2>
           <ul className="flex flex-col gap-3">
-            <li><Link to='home'>Home</Link></li>
-            <li><Link to='home'>Careers</Link></li>
-            <li><Link to='home'>Jobs</Link></li>
-            <li><Link to='home'>Profile</Link></li>
+            <li><Link to='/'>Home</Link></li>
+            <li><Link to='pagenotfound'>Careers</Link></li>
+            <li><Link to='pagenotfound'>Jobs</Link></li>
+            <li><Link to='dashboard'>Profile</Link></li>
           </ul>
         </div>
         <div className="vl"></div>
         <div className="flex-1">
           <h2 className="my-3 font-bold">Orders</h2>
           <ul className="flex flex-col gap-3">
-            <li><Link to='home'>Track Orders</Link></li>
-            <li><Link to='home'>Deals</Link></li>
-            <li><Link to='home'>Raise a complaint</Link></li>
-            <li><Link to='home'>Site Map</Link></li>
+            <li><Link to='pagenotfound'>Track Orders</Link></li>
+            <li><Link to='pagenotfound'>Deals</Link></li>
+            <li><Link to='pagenotfound'>Raise a complaint</Link></li>
+            <li><Link to='pagenotfound'>Site Map</Link></li>
           </ul>
         </div>
         <div className="vl"></div>
         <div className="flex-1">
           <h2 className="my-3 font-bold">Security</h2>
           <ul className="flex flex-col gap-3">
-            <li><Link to='home'>Track Complaint</Link></li>
-            <li><Link to='home'>FAQs</Link></li>
-            <li><Link to='home'>Terms & Conditions</Link></li>
-            <li><Link to='home'>Contact us</Link></li>
+            <li><Link to='pagenotfound'>Track Complaint</Link></li>
+            <li><Link to='pagenotfound'>FAQs</Link></li>
+            <li><Link to='pagenotfound'>Terms & Conditions</Link></li>
+            <li><Link to='pagenotfound'>Contact us</Link></li>
           </ul>
         </div>
         <div className="vl"></div>

@@ -81,10 +81,19 @@ background: linear-gradient(60deg, rgba(250,0,255,1) 0%, rgba(0,163,255,1) 50%, 
     display: none;
 }
 
-@media screen and (min-width:300px) and (max-width:600px) {
+@media screen and (min-width:690px) and (max-width:950px) {
+.options{
+    gap: .5rem !important;
+}
+}
+
+@media screen and (min-width:300px) and (max-width:690px) {
     .ham{
         display: flex;
         
+    }
+    .logo-container{
+        justify-content: space-between !important;
     }
     .nav{
         gap: 0;
@@ -97,11 +106,12 @@ background: linear-gradient(60deg, rgba(250,0,255,1) 0%, rgba(0,163,255,1) 50%, 
         flex-direction: column;
         margin-top: 1rem;
     }
-    li,a{
+    .navopts{
         text-align: center;
     }
     .socials{
-        flex-direction: row;
+        flex-direction: row !important;
+        width: 100% !important;
     }
 }
 .vl{
